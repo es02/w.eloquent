@@ -29,17 +29,19 @@
     "preferred-install": "dist",
     "optimize-autoloader": true
   },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/es02/w.eloquent-framework"
+      }
+  ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.2.*",
-    "bruno-barros/w.eloquent-framework": "dev-master",
-	"brain/amygdala": "dev-master",
-	"brain/striatum": "dev-master",
-	"brain/occipital": "dev-master",
-	"brain/cortex": "dev-master"
+    "johnpbloch/wordpress": "5.1.*",
+    "bruno-barros/w.eloquent-framework": "1.3.1",
+    "ryanwinchester/netsuite-php": "2018.2.*"
   },
   "require-dev": {
-    "phpunit/phpunit": "4.2.*",
     "mockery/mockery": "*",
     "10up/wp_mock": "dev-master",
 	"laracasts/integrated" : "0.15.6"

@@ -7,16 +7,15 @@
 	"require": {
 		"laravel/framework": "4.2.*"
 	},
-	"autoload": {
-		"classmap": [
-			"app/commands",
-			"app/controllers",
-			"app/models",
-			"app/database/migrations",
-			"app/database/seeds",
-			"app/tests/TestCase.php"
-		]
-	},
+    "autoload": {
+        "classmap": [
+            "database",
+            "tests/TestCase.php"
+        ],
+        "psr-4": {
+            "App": "app/"
+        }
+    },
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
