@@ -1,6 +1,6 @@
 {
-  "name": "bruno-barros/w.eloquent",
-  "description": "Wordpress integrated with Laravel via Composer. Together, but independents.",
+  "name": "es02/w.eloquent",
+  "description": "Wordpress integrated with Laravel via Composer. Together, but independent.",
   "keywords": [
     "Laravel",
     "framework",
@@ -29,16 +29,10 @@
     "preferred-install": "dist",
     "optimize-autoloader": true
   },
-  "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/es02/w.eloquent-framework"
-      }
-  ],
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "5.1.*",
-    "bruno-barros/w.eloquent-framework": "1.4.*",
+    "es02/w.eloquent-framework": "1.4.*",
     "brain/amygdala": "^0.1.0",
     "brain/striatum": "^0.1.0",
     "brain/occipital": "^0.1.0",
