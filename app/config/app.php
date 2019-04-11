@@ -136,6 +136,17 @@ return array(
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        Weloquent\Providers\AjaxServiceProvider::class,
+		Weloquent\Providers\AuthServiceProvider::class,
+		Weloquent\Providers\GlobalJsServiceProvider::class,
+		Weloquent\Providers\SessionServiceProvider::class,
+		Weloquent\Providers\ViewServiceProvider::class,
+		Weloquent\Providers\WelServiceProvider::class,
+		Weloquent\Providers\ConsoleSupportServiceProvider::class,
+		Weloquent\Providers\NavigationServiceProvider::class,
+		Weloquent\Providers\RouteServiceProvider::class,
+		Weloquent\Providers\AssetsServiceProvider::class,
+		Weloquent\Providers\HooksServiceProvider::class,
         /*
          * Application Service Providers...
          */

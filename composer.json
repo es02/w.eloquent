@@ -36,10 +36,13 @@
       }
   ],
   "require": {
-    "php": ">=7.0",
+    "php": ">=5.4",
     "johnpbloch/wordpress": "5.1.*",
     "bruno-barros/w.eloquent-framework": "1.3.1",
-    "ryanwinchester/netsuite-php": "2018.2.*"
+    "brain/amygdala": "^0.1.0",
+    "brain/striatum": "^0.1.0",
+    "brain/occipital": "^0.1.0",
+    "brain/cortex": "^0.1.0"
   },
   "require-dev": {
     "mockery/mockery": "*",

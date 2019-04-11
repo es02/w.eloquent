@@ -4,7 +4,7 @@
 
 Wordpress integrated with Laravel via Composer.
 
-* Not booting Laravel anymore, instead just using some packages. It all is because performance reason.
+* Atention! The branch `master` is no longer manteined. Now I'm working on branch `light`. Not booting Laravel anymore, instead just using some packages. It all is because performance reason.
 
 #### Documentation is being building on [wiki page](https://github.com/bruno-barros/w.eloquent/wiki).
 
@@ -14,7 +14,7 @@ Run `composer install` and have a system in place with:
 - Wordpress as front and back-end
 - Laravel as API and front-and (if necessary)
 - Install Wordpress and plugins via composer
-- Keeping plugins and themes for Wordpress environment as it is
+- Keeping plugins and themes for Wordpress environment as it is 
 - Access to Laravel API, including Facades, inside Wordpress
 - Access Wordpress API inside Laravel
 
@@ -37,7 +37,6 @@ These are projects I like and did inspire me to put it all together:
 - [Brain Project](http://giuseppe-mazzapica.github.io/Brain)
 
 ### Status
-* ATTENTION: This framework is currently not working. DO NOT USE THIS FORK.
 The packages are being adapted to WordPress environment.
 
  - [x] Views

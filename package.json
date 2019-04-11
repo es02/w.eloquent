@@ -1,6 +1,6 @@
 {
   "name": "w.eloquent",
-  "localUrl": "http://localhost/wordpress",
+  "localUrl": "http://localhost/",
   "version": "0.0.0",
   "description": "",
   "main": "gulpfile.js",

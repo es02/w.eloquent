@@ -1,5 +1,5 @@
 <?php
-
+$paths = require SRC_PATH . '/bootstrap/paths.php';
 return array(
 
 	/*
@@ -12,8 +12,24 @@ return array(
 	| the usual Laravel view path has already been registered for you.
 	|
 	*/
+	'paths' => array(
+        __DIR__.'/../resources/views',
+        SRC_PATH.'/themes/base/resources/views',
+        $paths['theme'],
+        $paths['theme'] . '/resources/views'
+    ),
 
-	'paths' => array(__DIR__.'/../views'),
+    /*
+    |--------------------------------------------------------------------------
+    | Compiled View Path
+    |--------------------------------------------------------------------------
+    |
+    | This option determines where all the compiled Blade templates will be
+    | stored for your application. Typically, this is within the storage
+    | directory. However, as usual, you are free to change this value.
+    |
+    */
+    'compiled' => __DIR__ . '/../storage/views',
 
 	/*
 	|--------------------------------------------------------------------------

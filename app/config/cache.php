@@ -1,4 +1,5 @@
 <?php
+$paths = require SRC_PATH . '/bootstrap/paths.php';
 
 return array(
 
@@ -28,7 +29,7 @@ return array(
 	|
 	*/
 
-	'path' => storage_path().'/cache',
+	'path' => SRC_PATH . '/storage/cache',
 
 	/*
 	|--------------------------------------------------------------------------

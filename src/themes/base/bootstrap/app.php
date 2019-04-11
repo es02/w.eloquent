@@ -1,4 +1,5 @@
 <?php
+
 /*
 |--------------------------------------------------------------------------
 | Create The Application
@@ -16,7 +17,6 @@ $app = new Illuminate\Foundation\Application(
 
 $app->instance('path.config', app()->basePath() . DIRECTORY_SEPARATOR . 'config');
 $app->instance('path.storage', app()->basePath() . DIRECTORY_SEPARATOR . 'storage');
-$app->instance('path.theme', __DIR__ . '/../themes/' . APP_THEME);
 
 /*
 |--------------------------------------------------------------------------

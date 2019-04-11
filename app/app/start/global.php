@@ -1,4 +1,5 @@
 <?php
+// looks like we're not using this.
 
 /*
 |--------------------------------------------------------------------------
@@ -10,11 +11,10 @@
 | your classes in the "global" namespace without Composer updating.
 |
 */
-
 ClassLoader::addDirectories(array(
 
 	app_path().'/commands',
-	app_path().'/controllers',
+	app_path().'/Http/Controllers',
 	app_path().'/models',
 	app_path().'/database/seeds',
 
